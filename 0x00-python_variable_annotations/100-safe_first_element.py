@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from typing import Sequence, Union, Any
+import typing
 
 
 def safe_first_element(lst: typing.Sequence[typing.Any]) -> \
