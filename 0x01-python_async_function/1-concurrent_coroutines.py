@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
+"""
+1-consurrent_coroutines.py
+"""
 import asyncio
-import random
+
 from typing import List
+
+
+
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
@@ -12,7 +18,6 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 - wait_n should return the list of all the delays (float values).
 - The list of the delays should be in ascending order without using sort() because of concurrency.
 """
-
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """returns a list of delays"""
